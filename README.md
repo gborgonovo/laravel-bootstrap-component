@@ -438,6 +438,7 @@ Here the default attributes:
 | step      | float    | 1        |                |
 | min       | float    | null     |                |
 | max       | float    | null     |                |
+| unescaped | boolean  | false    |                |
 
 
 *The step, min and max are only for input of type number.*
@@ -515,6 +516,7 @@ Here the default attributes:
 | Attribute | Type | Default |
 | --------- | ---- | ------- |
 | placeholder | string | null  |
+| unescaped | boolean | false   |
 
 ```
 <x-bs-textarea label="My label" name="mytextarea" value="Default value" placeholder="My placeholder" help="Help message" readonly disabled required />
