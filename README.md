@@ -3,7 +3,7 @@
 Install the package via composer:
 
 ```
-composer require nh/bs-component
+composer require gborgonovo/laravel-bootstrap-component
 ```
 
 Add this to your packages.json
